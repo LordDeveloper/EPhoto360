@@ -1,5 +1,5 @@
 vendor
 composer.lock
 storage/cookies.json
-**/.idea/
-index.php
+./.idea/
+./index.php
