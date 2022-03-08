@@ -2,4 +2,4 @@ vendor
 composer.lock
 storage/cookies.json
 ./.idea/
-./index.php
+/index.php
