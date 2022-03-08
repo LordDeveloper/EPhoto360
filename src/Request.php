@@ -86,17 +86,6 @@ class Request
     }
 
     /**
-     * @param $condition
-     * @param array $array
-     * @param callable $cb
-     * @return array
-     */
-    private static function mergeIf($condition, array $array, callable $cb): array
-    {
-        return $condition ? array_merge($array, (array) $cb()) : $array;
-    }
-
-    /**
      * @param $contents
      * @return mixed
      */
