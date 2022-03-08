@@ -2,6 +2,7 @@
     "name": "jupiterapi/ephoto360",
     "description": "Create text effects online , Effects online for free, photo frames, make face photo montages, custom greeting cards, add vintage filters, turn photos into sketches and drawings.",
     "type": "package",
+    "license": "MIT",
     "require": {
         "php": "^8.0",
         "guzzlehttp/guzzle": "^7.4"
