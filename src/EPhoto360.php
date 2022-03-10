@@ -168,7 +168,7 @@ class EPhoto360
         if($fromData['success'] === false)
             return $fromData;
 
-        $created = Request::fetch('/effect/create-image', $data['effect']['form_data']);
+        $created = Request::fetch('/effect/create-image', $formData);
 
         if($created['success'] === false)
             return $created;
