@@ -163,10 +163,10 @@ class EPhoto360
         if($data['success'] === false)
             return $data;
 
-        $fromData = $data['effect']['form_data'];
+        $formData = $data['effect']['form_data'];
 
-        if($fromData['success'] === false)
-            return $fromData;
+        if($formData['success'] === false)
+            return $formData;
 
         $created = Request::fetch('/effect/create-image', $formData);
 
@@ -174,7 +174,7 @@ class EPhoto360
             return $created;
 
         return array_merge($created, [
-            'image' => $fromData['build_server'] . $created['image'],
+            'image' => $formData['build_server'] . $created['image'],
             'filters' => $data['effect']['filters'],
         ]);
     }
