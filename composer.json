@@ -5,7 +5,8 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^8.0",
-        "guzzlehttp/guzzle": "^7.4"
+        "guzzlehttp/guzzle": "^7.4",
+        "ext-dom": "*"
     },
     "autoload": {
         "psr-4": {
