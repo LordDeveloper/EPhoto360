@@ -17,3 +17,13 @@ Create text effects online , Effects online for free, photo frames, make face ph
 
 **Installing with Phar**
 - ```copy('https://phar.lorddeveloper.ir/ephoto360.phar', 'ephoto360.phar');```
+
+  - **Usage:**
+  
+  ```<?php
+  use JupiterAPI\EPhoto360;
+  require_once 'phar://ephoto360.phar/vendor/autoload.php';
+  
+  
+  var_dump(EPhoto360::getEffect(22));
+
